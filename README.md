@@ -1,19 +1,18 @@
-# 🌟 My Personal Portfolio
+# 🌟 Meu Portfólio Pessoal
 
-## 🔖 Description
+## 🔖 Descrição
 
-Welcome to my personal portfolio! Here, I present my journey in the field of web development and highlight my achievements. This portfolio is a work in progress, and I hope you enjoy exploring it as much as I have enjoyed creating it.
+Bem-vindo ao meu portfólio pessoal! Aqui, apresento minha trajetória na área de desenvolvimento web e destaco meus aprendizados. Este portfólio está sempre evoluindo, e espero que você curta explorá-lo tanto quanto eu curti criá-lo.
 
-## 🛠️ Technologies
+## 🛠️ Tecnologias
 
-- **HTML:** The backbone of my portfolio, providing the structure and content of each page.
-- **JavaScript:** Enhancing interactivity and functionality to create a dynamic user experience.
-- **CSS:** Styling and designing the visual elements to make the portfolio aesthetically pleasing and user-friendly.
+- **HTML:** A estrutura fundamental do meu portfólio, fornecendo a base de cada página.
+- **JavaScript:** Responsável por aprimorar a interatividade e funcionalidade, criando uma experiência de usuário dinâmica.
+- **CSS:** Utilizado para estilizar e projetar os elementos visuais, tornando o portfólio atraente e fácil de usar.
 
-Feel free to check out the source code on my GitHub repository!
+Fique à vontade para conferir o código-fonte no meu repositório do GitHub!
 
-## 🌐 Access Online
+## 🌐 Acesse Online
 
-### Portuguese Version
-[My Portfolio (Portuguese)](https://portfolio-upweb.netlify.app)
-
+### Versão em Português
+[Meu Portfólio](https://portfolio-upweb.netlify.app)
