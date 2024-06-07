@@ -1,0 +1,133 @@
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 83vh;
+        margin-bottom: 6rem;
+    }
+
+    .about__container {
+        flex-wrap: wrap;
+    }
+
+    #contact, #projects,
+    section, .section__container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #nav {
+        display: none;
+    }
+
+    #hamburguer__nav {
+        display: flex;
+    }
+
+    #experience, .experience__details__container {
+        margin-top: 2rem;
+    }
+
+    #profile, .section__container {
+        display: block;
+    }
+
+    .about__details {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 10rem;
+    }
+
+    section, .section__container {
+        height: fit-content;
+    }
+
+    section {
+        margin: 0 5%;
+    }
+
+    .profile__picture {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+
+    .about__container {
+        margin-top: 0;
+    }
+
+    .section__container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact, footer {
+        height: 40vh;
+    }
+
+    .move {
+        display: none;
+    }
+
+    #profile {
+        height: 83vh;
+        margin-bottom: 12rem;
+    }
+
+    article {
+        font-size: 1rem;
+    }
+
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+
+    .about__container,
+    .contact__info__container,
+    .btn__container {
+        flex-wrap: wrap;
+    }
+
+    .contact__info__detail {
+        margin: 0;
+    }
+
+    .contact__info__detail p,
+    .nav__links li a {
+        font-size: 1rem;
+    }
+
+    .contact__info__detail .text__contact {
+        font-size: 0.8rem;
+    }
+
+    .projects__title {
+        font-size: 1.25rem;
+    }
+
+    .logo {
+        font-size: 1.5rem;
+    }
+
+    .nav__links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+
+    .about__profile {
+        width: auto;
+        height: 46vh;
+        justify-content: center;
+    }
+}
