@@ -16,7 +16,7 @@ document.getElementById('scrollTo').addEventListener('click', function(){
 
 // Menu Title
 const typed = new Typed(".typing__text",{
-    strings: ["Web Designer"],
+    strings: ["Developer"],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
