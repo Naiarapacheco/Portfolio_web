@@ -1,133 +1,275 @@
+/* ============================================
+   LARGE DESKTOP → MEDIUM DESKTOP (≤ 1400px)
+   ============================================ */
 @media screen and (max-width: 1400px) {
-    #profile {
-        height: 83vh;
-        margin-bottom: 6rem;
-    }
+  section {
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 100%;
+  }
 
-    .about__container {
-        flex-wrap: wrap;
-    }
+  #profile {
+    min-height: 83vh;
+    gap: 3rem;
+  }
 
-    #contact, #projects,
-    section, .section__container {
-        height: fit-content;
-    }
-
-    section {
-        margin: 0 5%;
-    }
+  .about__container {
+    flex-wrap: wrap;
+  }
 }
 
+/* ============================================
+   TABLET LANDSCAPE / SMALL LAPTOP (≤ 1200px)
+   ============================================ */
 @media screen and (max-width: 1200px) {
-    #nav {
-        display: none;
-    }
+  #nav {
+    display: none;
+  }
 
-    #hamburguer__nav {
-        display: flex;
-    }
+  footer nav {
+    display: none;
+  }
 
-    #hability, .experience__details__container {
-        margin-top: 2rem;
-    }
+#profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: auto;
+    padding-top: 3rem;
+    gap: 2.5rem;
+  }
 
-    #profile, .section__container {
-        display: block;
-    }
+  .profile__picture {
+    width: 240px;
+    height: 240px;
+  }
 
-    .about__details {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        margin-top: 10rem;
-    }
+  .section__text {
+    text-align: center;
+    width: 100%;
+  }
 
-    section, .section__container {
-        height: fit-content;
-    }
+  .section__container {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    height: fit-content;
+  }
 
-    section {
-        margin: 0 5%;
-    }
+  .about__profile {
+    width: 320px;
+    height: 320px;
+    margin: 0 auto;
+  }
 
-    .profile__picture {
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
-    }
+  .code__block {
+    width: 100%;
+    max-width: 420px;
+    margin: 0 auto;
+  }
 
-    .about__container {
-        margin-top: 0;
-    }
+  .about__details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
 
-    .section__container {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        gap: 5rem;
-    }
+  .about__container {
+    margin-top: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  #hability,
+  .experience__details__container {
+    margin-top: 1rem;
+  }
+
+  .about__container {
+    flex-wrap: wrap;
+  }
+
+  section {
+    height: fit-content;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 100%;
+  }
 }
 
+/* ============================================
+   TABLET PORTRAIT (≤ 900px)
+   ============================================ */
+@media screen and (max-width: 900px) {
+  .title {
+    font-size: 2.4rem;
+  }
+
+  .title__h1 {
+    font-size: 1.6rem;
+  }
+
+  .text__one {
+    font-size: 1.4rem;
+  }
+
+  .about__profile {
+    width: 280px;
+    height: 280px;
+  }
+
+  .details__container__experience {
+    padding: 2rem 1.5rem;
+  }
+
+  .about__container {
+    gap: 1.5rem;
+  }
+
+  #projects .about__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* ============================================
+   MOBILE (≤ 600px)
+   ============================================ */
 @media screen and (max-width: 600px) {
-    #contact, footer {
-        height: 40vh;
-    }
+  section {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 
-    .move {
-        display: none;
-    }
+  #profile {
+    min-height: auto;
+    padding-top: 2.5rem;
+    gap: 2rem;
+  }
 
-    #profile {
-        height: 83vh;
-        margin-bottom: 12rem;
-    }
+  .profile__picture {
+    width: 200px;
+    height: 200px;
+  }
 
-    article {
-        font-size: 1rem;
-    }
+  .title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
 
-    footer nav {
-        height: fit-content;
-        margin-bottom: 2rem;
-    }
+  .title__h1 {
+    font-size: 1.4rem;
+  }
 
-    .about__container,
-    .contact__info__container,
-    .btn__container {
-        flex-wrap: wrap;
-    }
+  .text__one {
+    font-size: 1.1rem;
+  }
 
-    .contact__info__detail {
-        margin: 0;
-    }
+  .experience__sub__title {
+    font-size: 1.4rem;
+  }
 
-    .contact__info__detail p,
-    .nav__links li a {
-        font-size: 1rem;
-    }
+  article {
+    width: 9rem;
+  }
 
-    .contact__info__detail .text__contact {
-        font-size: 0.8rem;
-    }
+  article h4 {
+    font-size: 0.9rem;
+  }
 
-    .projects__title {
-        font-size: 1.25rem;
-    }
+  .about__profile {
+    width: 100%;
+    height: 260px;
+    margin: 0 auto;
+  }
 
-    .logo {
-        font-size: 1.5rem;
-    }
+  .about__container,
+  .contact__info__container,
+  .btn__container {
+    flex-wrap: wrap;
+  }
 
-    .nav__links {
-        flex-direction: column;
-        gap: 0.5rem;
-        text-align: center;
-    }
+  .details__container__experience {
+    padding: 1.5rem 1rem;
+  }
 
-    .about__profile {
-        width: auto;
-        height: 46vh;
-        justify-content: center;
-    }
+  #projects .about__container {
+    grid-template-columns: 1fr;
+  }
+
+  .projects__title {
+    font-size: 1.1rem;
+  }
+
+  .contact__info__detail {
+    margin: 0.5rem;
+  }
+
+  .contact__info__detail p a {
+    font-size: 1rem;
+  }
+
+  footer {
+    padding: 2rem 1rem;
+  }
+
+  footer nav {
+    margin-bottom: 1.5rem;
+  }
+
+  .nav__links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+}
+
+/* ============================================
+   SMALL PHONES (≤ 480px)
+   ============================================ */
+@media screen and (max-width: 480px) {
+  .title {
+    font-size: 1.7rem;
+  }
+
+  .title__h1 {
+    font-size: 1.2rem;
+  }
+
+  .profile__picture {
+    width: 170px;
+    height: 170px;
+  }
+
+  .btn {
+    width: 7rem;
+    padding: 0.8rem;
+    font-size: 0.85rem;
+  }
+
+  .btn-a {
+    width: 7rem;
+    padding: 0.8rem;
+    font-size: 0.8rem;
+  }
+
+  .contact__info__detail p a {
+    font-size: 0.85rem;
+  }
+
+  .experience__sub__title {
+    font-size: 1.2rem;
+  }
+
+  article {
+    width: 8rem;
+  }
+
+  .socials__container .icon i {
+    font-size: 1.5rem;
+  }
 }

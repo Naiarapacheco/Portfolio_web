@@ -1,10 +1,3 @@
-function toggleMenu(){
-    const menuLinks = document.querySelector(".menu__links");
-    const hamburguerIcon = document.querySelector(".hamburguer__icon");
-    menuLinks.classList.toggle('open');
-    hamburguerIcon.classList.toggle('open');
-};
-
 // SCROLL
 document.getElementById('scrollTo').addEventListener('click', function(){
     window.scrollTo({
